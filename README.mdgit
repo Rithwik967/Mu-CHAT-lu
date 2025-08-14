@@ -1,0 +1,1 @@
+"# Mu-CHAT-lu"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/Rithwik967/Mu-CHAT-lu.gitgit push -u origin main
