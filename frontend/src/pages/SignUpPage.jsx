@@ -3,7 +3,8 @@ import { useAuthStore } from '../store/useAuthStore';
 import { toast } from 'react-hot-toast';
 
 import AuthImagePattern from "../components/AuthImagePattern";
-import { Eye, EyeOff, Loader2, LockKeyhole, Mail, MessageSquare, User } from 'lucide-react';
+import ChatLogo from "../components/ChatLogo";
+import { Eye, EyeOff, Loader2, LockKeyhole, Mail, User } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const SignUpPage = () => {
@@ -41,13 +42,8 @@ const SignUpPage = () => {
         {/* LOGO */}
         <div className="text-center mb-8">
           <div className="flex flex-col items-center gap-2 group">
-            <div
-              className="size-12 rounded-xl bg-primary/10 flex items-center justify-center 
-                group-hover:bg-primary/20 transition-colors"
-            >
-              <MessageSquare className="size-6 text-primary" />
-            </div>
-            <h1 className="text-2xl font-bold mt-2">Create Account</h1>
+            <ChatLogo size="default" />
+            <h1 className="text-2xl font-bold mt-2">Mu-CHAT-lu</h1>
             <p className="text-base-content/60">Get started with your free account</p>
           </div>
         </div>

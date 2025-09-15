@@ -1,9 +1,10 @@
 import React from 'react'
 import { useState } from 'react';
 import { useAuthStore } from '../store/useAuthStore';
-import { Eye, EyeOff, Loader2, Lock, Mail, MessagesSquare } from 'lucide-react';
+import { Eye, EyeOff, Loader2, Lock, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import AuthImagePattern from '../components/AuthImagePattern';
+import ChatLogo from '../components/ChatLogo';
 
 const LoginPage = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -26,13 +27,8 @@ const LoginPage = () => {
           {/* Logo */}
           <div className="text-center mb-8">
             <div className="flex flex-col items-center gap-2 group">
-              <div
-                className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20
-              transition-colors"
-              >
-                <MessagesSquare className="w-6 h-6 text-primary" />
-              </div>
-              <h1 className="text-2xl font-bold mt-2">Welcome Back</h1>
+              <ChatLogo size="default" />
+              <h1 className="text-2xl font-bold mt-2">Mu-CHAT-lu</h1>
               <p className="text-base-content/60">Sign in to your account</p>
             </div>
           </div>
