@@ -11,7 +11,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.1.11",
     "axios": "^1.10.0",
     "daisyui": "^5.0.50",
     "lucide-react": "^0.539.0",
