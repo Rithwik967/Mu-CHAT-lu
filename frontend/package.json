@@ -13,7 +13,6 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.11",
     "axios": "^1.10.0",
-    "chat-app": "file:..",
     "daisyui": "^5.0.50",
     "lucide-react": "^0.539.0",
     "postcss-cli": "^11.0.1",
