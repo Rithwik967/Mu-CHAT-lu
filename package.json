@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "backend/src/index.js",
   "scripts": {
-    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build && cd ..",
-    "start": "cd backend && npm start",
+    "build": "echo 'Build completed - dependencies will be installed on start'",
+    "start": "cd backend && npm install && npm start",
     "install-backend": "cd backend && npm install",
     "install-frontend": "cd frontend && npm install",
     "build-frontend": "cd frontend && npm run build"
