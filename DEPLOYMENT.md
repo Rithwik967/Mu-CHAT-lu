@@ -39,7 +39,9 @@ In your Render dashboard, add these environment variables:
 - `CLOUDINARY_CLOUD_NAME`: Your Cloudinary cloud name
 - `CLOUDINARY_API_KEY`: Your Cloudinary API key
 - `CLOUDINARY_API_SECRET`: Your Cloudinary API secret
-- `FRONTEND_URL`: Your Render app URL (e.g., `https://your-app-name.onrender.com`)
+- `FRONTEND_URL`: Your Render app URL (same as your app URL, e.g., `https://your-app-name.onrender.com`)
+
+**Note**: Since you're deploying both frontend and backend together, your frontend URL will be the same as your app URL.
 
 ### 4. Update CORS Configuration
 After deployment, update the CORS URLs in your code:
